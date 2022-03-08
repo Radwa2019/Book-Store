@@ -1362,6 +1362,7 @@ background-image: linear-gradient(#becfff, 2%, white, 25%, white, 95%, #becfff);
 footer .container {
   background-color: rgb(73, 73, 73);
   padding: 30px;
+  padding-bottom: 15px;
   .icons {
     display: flex;
     div {
@@ -1387,7 +1388,6 @@ footer .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
     grid-gap: 20px;
-    // justify-content: space-around;
     h2 {
       color: #fff;
       font-size: 20px;
@@ -1406,6 +1406,7 @@ footer .container {
   }
  .signature {
   margin: 40px auto;
+  margin-bottom: 0;
   width: fit-content;
   p{
     color: #fff;
