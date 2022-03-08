@@ -1416,7 +1416,7 @@ footer .container {
 //  Start Sticky Chat
 .sticky-chat {
   position: fixed;
-  // z-index: 20;
+  z-index: 20;
   bottom:20px;
   left: 20px;
   width: 60px;
@@ -1438,7 +1438,6 @@ footer .container {
     border-top-color: $red-color;
     transform: rotate(-30deg);
     z-index: -1;
-    // box-shadow:  1px 1px 3px rgb(136, 0, 0);
   }
   button{
     border: none;
@@ -1446,7 +1445,6 @@ footer .container {
     a {
       text-decoration: none;
       color: #fff;
-      // font-size: 20px;
       font-weight: bold;
     }
   }
